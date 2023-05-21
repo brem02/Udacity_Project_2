@@ -45,13 +45,13 @@ stages:
         python3.7 -m pip install setup
         python3.7 -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
-      displayName: 'myStep 1'
+      displayName: 'myStep 1 - python3.7 -m pip install'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
         make install
       workingDirectory: $(projectRoot)
-      displayName: 'myStep 2'
+      displayName: 'myStep 2 - Make install'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
