@@ -1,19 +1,74 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+## Python to Linux Web App on Azure
+## Build your Python project and deploy it to Azure as a Linux Web App.
+## Change python version to one thats appropriate for your application.
+## https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+# TODO: Replace the agent pool name
+# pool: myAgentPool
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+variables:
+  # TODO: Replace the service connection name as used in the DevOps project settings
+  azureServiceConnectionId: 'Udacity-AzureDevops-Project2'
+  
+  # TODO: Specify the value of the existing Web App name
+  webAppName: 'uda-azuredevops-p2'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
+
+  # Environment name
+  environmentName: 'Udacity-AzureDevops-Project2'
+
+  # Project root folder. Point to the folder containing manage.py file.
+  projectRoot: $(System.DefaultWorkingDirectory)
+  
+  ## Python version: 3.7
+  pythonVersion: '3.7'
+
+stages:
+- stage: Build
+  displayName: Build stage
+  jobs:
+  - job: BuildJob
+    pool:
+         vmImage: $(vmImageName)
+    steps:  
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '$(pythonVersion)'
+      displayName: 'Use Python $(pythonVersion)'
+    - script: |
+        python3.7 -m pip install --upgrade pip
+        python3.7 -m pip install setup
+        python3.7 -m pip install -r requirements.txt
+      workingDirectory: $(projectRoot)
+      displayName: 'myStep 1'
+
+    - script: |
+        export PATH=$HOME/.local/bin:$PATH
+        make install
+      workingDirectory: $(projectRoot)
+      displayName: 'myStep 2'
+
+    - script: |
+        export PATH=$HOME/.local/bin:$PATH
+        make install
+        make lint
+      workingDirectory: $(projectRoot)
+      displayName:  'myStep 3 - Run lint tests'
+
+    - task: ArchiveFiles@2
+      displayName: 'myStep 4 - Archive files'
+      inputs:
+        rootFolderOrFile: '$(projectRoot)'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+
+    - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      displayName: 'myStep 5 - Upload package'
+      artifact: drop
