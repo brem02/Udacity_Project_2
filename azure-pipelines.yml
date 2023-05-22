@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # TODO: Replace the service connection name as used in the DevOps project settings
-  azureServiceConnectionId: 'ce0cb4f6-d6d0-409d-b086-783afc2bd8e2'
+  azureServiceConnectionId: '1addbb4a-190c-4cfd-92a9-a1b442860c26'
   
   # TODO: Specify the value of the existing Web App name
   webAppName: 'uda-azuredevops-p2'
