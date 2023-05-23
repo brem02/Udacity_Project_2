@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: myAgentPool
+pool: myLinuxVM
 
 variables:
   # TODO: Replace the service connection name as used in the DevOps project settings
