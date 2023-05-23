@@ -22,8 +22,8 @@ variables:
   environmentName: 'Udacity_AzureDevops-P2'
 
   # Project root folder. Point to the folder containing manage.py file.
-  # projectRoot: $(System.DefaultWorkingDirectory)
-  projectRoot: $(Build.BinariesDirectory)
+  projectRoot: $(System.DefaultWorkingDirectory)
+ 
   
   ## Python version: 3.7
   pythonVersion: '3.8'
