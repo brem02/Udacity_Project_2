@@ -33,7 +33,7 @@ stages:
   jobs:
   - job: BuildJob
     pool: myAgentPool
-   steps:  
+    steps:  
     - task: UsePythonVersion@0
       inputs:
         versionSpec: '$(pythonVersion)'
