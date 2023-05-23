@@ -32,7 +32,7 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: myLinuxVM
+    vmImage: $(vmImageName)
     steps:  
     - task: UsePythonVersion@0
       inputs:
