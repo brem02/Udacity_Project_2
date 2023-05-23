@@ -25,7 +25,7 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
   
   ## Python version: 3.7
-  pythonVersion: '3.7'
+  pythonVersion: '3.9'
 
 stages:
 - stage: Build
@@ -39,11 +39,11 @@ stages:
         versionSpec: '$(pythonVersion)'
       displayName: 'Use Python $(pythonVersion)'
     - script: |
-        python3.7 -m pip install --upgrade pip
-        python3.7 -m pip install setup
-        python3.7 -m pip install -r requirements.txt
+        python3.9 -m pip install --upgrade pip
+        python3.9 -m pip install setup
+        python3.9 -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
-      displayName: 'myStep 1 - python3.7 -m pip install'
+      displayName: 'myStep 1 - python3.9 -m pip install'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
