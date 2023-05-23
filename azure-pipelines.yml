@@ -77,8 +77,7 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeploymentJob
-    pool:
-      vmImage: $(vmImageName)
+    pool: myAgentPool 
     environment: $(environmentName)
     strategy:
       runOnce:
@@ -96,3 +95,4 @@ stages:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              appType: webApp
