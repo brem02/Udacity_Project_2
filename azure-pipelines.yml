@@ -32,7 +32,7 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: myAgentPool
+    pool: myLinuxVM
     steps:  
     - task: UsePythonVersion@0
       inputs:
