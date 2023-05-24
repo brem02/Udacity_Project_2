@@ -13,7 +13,7 @@ variables:
   azureServiceConnectionId: 'myServiceConnection'
   
   # TODO: Specify the value of the existing Web App name
-  webAppName: 'mywebapp-p2'
+  webAppName: 'uda-azuredevops-p2'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
