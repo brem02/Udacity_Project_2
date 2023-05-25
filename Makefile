@@ -1,6 +1,6 @@
 setup:
 	python3 -m venv ~/.Udacity_Project_2
-	#source ~/.Udacity_Project_2/bin/activate
+	source ~/.Udacity_Project_2/bin/activate
 
 install:
 	pip install --upgrade pip &&\
