@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PORT=5000
+PORT=443
 echo "Port: $PORT"
 
 # POST method predict
@@ -25,6 +25,6 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://localhost:$PORT/predict
+     -X POST https://uda-azuredevops-p2.azurewebsites.net:$PORT/predict
      # TODO: Replace the <yourappname> with your application name 
     
