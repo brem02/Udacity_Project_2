@@ -10,10 +10,10 @@ pool: myAgentPool
 
 variables:
   # TODO: Replace the service connection name as used in the DevOps project settings
-  azureServiceConnectionId: 'Uda-AzureDevOps-Project2'
+  azureServiceConnectionId: 'myServiceConnection'
   
   # TODO: Specify the value of the existing Web App name
-  webAppName: 'mywebapp20230504'
+  webAppName: 'uda-azuredevops-p2'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -25,8 +25,8 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
  
   
-  Python version: 3.7
-  ##pythonVersion: '3.8'
+  ## Python version: 3.7
+  pythonVersion: '3.8'
 
 stages:
 - stage: Build
