@@ -41,8 +41,8 @@ stages:
         architecture: 'x64'
       displayName: 'Use Python $(pythonVersion)'
     - script: |
-        python -m venv virtenv
-        source virtenv/bin/activate
+        python -m venv antenv
+        source antenv/bin/activate
         python3 -m pip install --upgrade pip
         python3 -m pip install setup
         python3 -m pip install -r requirements.txt
