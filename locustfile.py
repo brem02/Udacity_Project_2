@@ -1,12 +1,7 @@
-from locust import HttpUser, task, between
+from locust import HttpUser, task
 
-class WebsiteTestUser(HttpUser):
-    wait_time = between(0.5, 3.0)
-
-    @task(1)
-    def test1(self):
-        self.client.get("https://uda-azuredevops-p2.azurewebsites.net")
-
-    @task(2)
-    def test2(self):
-        self.client.post("https://uda-azuredevops-p2.azurewebsites.net:443/predict")
+class HelloWorldUser(HttpUser):
+    @task
+    def hello_world(self):
+        self.client.get("/hello")
+        self.client.get("/world")
