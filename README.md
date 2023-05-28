@@ -33,7 +33,8 @@ It is important to have an effective project plan and task tracking. In this sec
 ![architectural-diagram](https://github.com/brem02/Udacity_Project_2/assets/122722304/f55f537e-b9d2-4ba0-8f18-62e2028292a7)
 
 
-## Deploy the app in Azure Cloud Shell
+## Deploy the app in Azure Power/Cloud Shell
+
 
 Create a new repository:
 
