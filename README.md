@@ -61,32 +61,50 @@ Clone the repo with git clone https://github.com/brem02/Udacity_Project_2.git
 ![Cloning_Project_into_Azure_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/5820860f-67ca-4a0c-b124-4866ddec5b95)
 
 
+Generate necessary files in Project:
+
+![Generate_Files_in_Project](https://github.com/brem02/Udacity_Project_2/assets/122722304/0ac5929e-8e16-4767-9281-eaaa1b0738dd)
 
 
+Define hello.py via bash editor
 
-Go to the repository directory:
-```
-cd Building-a-CI-CD-Pipeline
-```
-![go repo directory](evidence/screenshot-go-repo-directory.PNG)
+![Define_Hello_py](https://github.com/brem02/Udacity_Project_2/assets/122722304/bcb86d82-3f58-461b-be88-f9ae1488a9e8)
 
-Setup virtual environment:
-```
-make setup
-```
-![make setup](evidence/screenshot-make-setup.PNG)
 
-Activate the virtual environment:
-```
-source ~/.Building-a-CI-CD-Pipeline/bin/activate
-```
-![source](evidence/screenshot-source.PNG)
+Define test_hello.py
 
-Install dependencies and run lint in the virtual environment:
-```
-make all
-```
-![make all](evidence/screenshot-make-all.PNG)
+![Define_test_Hello_py](https://github.com/brem02/Udacity_Project_2/assets/122722304/a3c5ada9-8088-4ec4-994b-e7efce67334d)
+
+
+Define requirements.txt
+
+![Define_requirements_txt](https://github.com/brem02/Udacity_Project_2/assets/122722304/6fd94cb7-5d0b-4ee6-a7c7-cd5b6ef737da)
+
+
+Prepare Makefile in Visual Studio
+
+![Prepare_Makefile_in_Visual_Studio_with_Tab](https://github.com/brem02/Udacity_Project_2/assets/122722304/063f3634-71e0-463d-b4b8-33dc1aa1c377)
+
+
+Define Makefile
+
+![Define_Makefile](https://github.com/brem02/Udacity_Project_2/assets/122722304/355de6ba-c127-4dd5-974e-6d28ef92fdb4)
+
+
+Create and Activate Virtual Environment
+
+![Creating_Virtual_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/e919d00b-c175-414d-ab7c-4cc3ec582db5)
+
+
+Install dependencies and run make all in the VM and check, if test has passed
+
+![Passing_Test_After_Make_All](https://github.com/brem02/Udacity_Project_2/assets/122722304/a7d8998f-9e44-4a38-92cb-89e212ec14b3)
+
+
+Deactivate Virtual Environment
+
+![Deactivate_Virtual_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/abbff754-5940-488b-bced-d40341863cfe)
+
 
 In order to validate the application before deploy to app service, start the application in the virtual environment:
 ```
@@ -107,6 +125,18 @@ cd Building-a-CI-CD-Pipeline
 Close the second cloud console, and press "Ctrl + c" to stop the local app in the first console:
 
 ![stop-app](evidence/screenshot-stop-app.PNG)
+
+
+Push Files to Github:
+
+![Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/175c821e-ab0f-4d58-b9c2-c216783756a8)
+
+
+Result of Push:
+
+![Result_Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/8dc1c48c-317a-4d08-aa46-628beb962620)
+
+
 
 ## Deploy the app to an Azure App Service
 Now is time to deploy the app to an azure app service...
