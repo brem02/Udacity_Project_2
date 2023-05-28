@@ -41,16 +41,19 @@ Create a new repository:
 ![Create_New_Repository](https://github.com/brem02/Udacity_Project_2/assets/122722304/64add23b-e27b-4435-8b49-b2736b1fb500)
 
 
+
 Go to the azure portal (portal.azure.com) in your browser and open cloud shell: 
 
 ![Open_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/c5b8cdc6-8802-48e8-ae03-a8544b81494a)
 
 
-In Azure Cloud Shell, clone the repo:
+
+Clone the repo with git clone https://github.com/brem02/Udacity_Project_2.git
 ```
-git clone git@github.com:josegalarceh/Building-a-CI-CD-Pipeline.git
-```
-![git clone](evidence/screenshot-git-clone.PNG) 
+![Cloning_Project_into_Azure_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/5820860f-67ca-4a0c-b124-4866ddec5b95)
+
+
+
 
 Go to the repository directory:
 ```
