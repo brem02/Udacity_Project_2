@@ -24,7 +24,7 @@ In this project, you will build a Github repository from scratch and create a sc
 
 ## Project Plan
 
-It is critical to have an effective project plan and task tracking, In this section you can find:
+It is important to have an effective project plan and task tracking. In this section you can find:
 
 * Trello Board
 * Spreadsheet including original and final project plan
@@ -49,7 +49,7 @@ Go to the azure portal (portal.azure.com) in your browser and open cloud shell:
 
 
 Clone the repo with git clone https://github.com/brem02/Udacity_Project_2.git
-```
+
 ![Cloning_Project_into_Azure_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/5820860f-67ca-4a0c-b124-4866ddec5b95)
 
 
