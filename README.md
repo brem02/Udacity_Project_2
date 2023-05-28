@@ -147,19 +147,31 @@ Create Pythonapp.yml
 ![Create_Pythonapp_yml](https://github.com/brem02/Udacity_Project_2/assets/122722304/f383c9d2-88f5-4027-b79e-44ae07fd6cf7)
 
 
+Passing GitHub Actions Build:
+
+![Passing_GitHub_Actions_Build](https://github.com/brem02/Udacity_Project_2/assets/122722304/4e310c63-0db0-4a6b-974b-1b41bb348c99)
+
+
+Git Clone Starter Code:
+
+![Git_Clone_Starter_Code](https://github.com/brem02/Udacity_Project_2/assets/122722304/db6df712-173e-463e-bf1e-ebb5da327e2a)
+
+
 
 ## Deploy the app to an Azure App Service
-Now is time to deploy the app to an azure app service...
 
-Create an App Service in Azure. In this example the App Service is called jose-flaskpipelines and the resource group is called jose-udacity-project. In the first Cloud Console run the follow command, the result take a few minutes:
+Create an App Service in Azure. In this example the App Service is called uda-azuredevops-p2 and the resource group is called Azuredevops. In the first Cloud Console run the follow command, the result takes a few minutes:
 
-```
-az webapp up -n jose-flaskpipelines -g jose-udacity-project
-```
-![create-webapp](evidence/screenshot-create-webapp.PNG)
+az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --logs --runtime "PYTHON:3.8"
+
+![Create_Web_App](https://github.com/brem02/Udacity_Project_2/assets/122722304/db51f2d1-dfe0-4b7a-ab2f-573a6332badf)
+
 
 This is the webapp on the azure portal:
-![webapp](evidence/screenshot-webapp.PNG)
+
+![Web_App_Details](https://github.com/brem02/Udacity_Project_2/assets/122722304/a122a245-dae2-4b60-8887-970ac7659780)
+
+
 
 Next, create and configure the pipeline in Azure DevOps. More information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
 
