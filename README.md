@@ -14,20 +14,20 @@ A short description of how to improve the project in the future
 
 Screenshots demonstrating key steps
 
-![Python application test with Github Actions](https://github.com/josegalarceh/Building-a-CI-CD-Pipeline/workflows/Python_application_test_with_Github_Actions/badge.svg)
+Badge
+
 
 # Overview
 
 In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both, Continuous Integration and Continuous Delivery. You will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. After that, you will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 
-
 ## Project Plan
 
 It is critical to have an effective project plan and task tracking, In this section you can find:
 
-* A [Trello](https://trello.com/b/7QrYdgzR/udacity-building-a-ci-cd-pipeline) board for the project
-* A [spreadsheet](https://github.com/josegalarceh/Building-a-CI-CD-Pipeline/blob/main/Udacity-Building-a-CI-CD-Pipeline-Q1-2021.xlsx) that includes the original and final project plan
+* Trello Board
+* Spreadsheet including original and final project plan
 
 ## Instructions
 
@@ -36,15 +36,15 @@ It is critical to have an effective project plan and task tracking, In this sect
 
 ## Deploy the app in Azure Cloud Shell
 
-Go to the azure portal in your browser:
-```
-portal.azure.com
-```
-![portal azure](evidence/screenshot-portal-azure3.PNG) 
+Create a new repository:
 
-In the Azure Portal, select Azure Cloud Shell:
+![Create_New_Repository](https://github.com/brem02/Udacity_Project_2/assets/122722304/64add23b-e27b-4435-8b49-b2736b1fb500)
 
-![Cloud Shell](evidence/screenshot-cloud-shell.PNG) 
+
+Go to the azure portal (portal.azure.com) in your browser and open cloud shell: 
+
+![Open_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/c5b8cdc6-8802-48e8-ae03-a8544b81494a)
+
 
 In Azure Cloud Shell, clone the repo:
 ```
