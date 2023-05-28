@@ -137,6 +137,16 @@ Result of Push:
 ![Result_Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/8dc1c48c-317a-4d08-aa46-628beb962620)
 
 
+Get Started with Github Actions:
+
+![Get_Started_With_GitHub_Actions](https://github.com/brem02/Udacity_Project_2/assets/122722304/78a882fc-0a49-411a-a363-7c91a46756d1)
+
+
+Create Pythonapp.yml
+
+![Create_Pythonapp_yml](https://github.com/brem02/Udacity_Project_2/assets/122722304/f383c9d2-88f5-4027-b79e-44ae07fd6cf7)
+
+
 
 ## Deploy the app to an Azure App Service
 Now is time to deploy the app to an azure app service...
