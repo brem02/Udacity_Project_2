@@ -30,7 +30,6 @@ It is important to have an effective project plan and task tracking. In this sec
 * Spreadsheet including original and final project plan
 
 ## Instructions
-
 ![architectural-diagram](https://github.com/brem02/Udacity_Project_2/assets/122722304/f55f537e-b9d2-4ba0-8f18-62e2028292a7)
 
 
@@ -42,15 +41,24 @@ Create a new repository:
 
 
 
-Go to the azure portal (portal.azure.com) in your browser and open cloud shell: 
+Go to the azure portal (portal.azure.com) in your browser and open power or cloud shell: 
 
 ![Open_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/c5b8cdc6-8802-48e8-ae03-a8544b81494a)
 
+
+Generate, copy and add SSH-Key in Github
+
+![Generate_SSH_Key](https://github.com/brem02/Udacity_Project_2/assets/122722304/21a98664-c304-4106-a02f-30b29115a14e)
+
+![Copying_SSH_Key](https://github.com/brem02/Udacity_Project_2/assets/122722304/54f5b218-c7b5-44b8-b123-5f5ba5cf2483)
+
+![Add_SSH_Key_in_Github](https://github.com/brem02/Udacity_Project_2/assets/122722304/7ca8ab72-e010-4c24-90f0-0dcfe1287b42)
 
 
 Clone the repo with git clone https://github.com/brem02/Udacity_Project_2.git
 
 ![Cloning_Project_into_Azure_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/5820860f-67ca-4a0c-b124-4866ddec5b95)
+
 
 
 
