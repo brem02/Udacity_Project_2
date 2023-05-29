@@ -231,6 +231,30 @@ Virtual Machine Details:
 ![Virtual_Machine_Details](https://github.com/brem02/Udacity_Project_2/assets/122722304/990b4b31-76ea-4ffb-a7de-d2742ac7f240)
 
 
+Configure Virtual Machine --> Install Docker:
+
+![Configure_VM_Install_Docker](https://github.com/brem02/Udacity_Project_2/assets/122722304/80cfc6b2-b40f-49ac-a3c9-384d6ab905bc)
+
+
+Create new Agent:
+
+![Create_New_Agent](https://github.com/brem02/Udacity_Project_2/assets/122722304/70e4ca46-414a-4cf9-9ad8-2e290f89e189)
+
+
+Configure Virtual Machine --> Install Agent Services:
+
+![Configure_VM_Install_Agent_Services](https://github.com/brem02/Udacity_Project_2/assets/122722304/9dac8139-ff3b-4119-8094-ab284f78eddd)
+
+
+Check, if Agent has been registered:
+
+![Agent_Registered](https://github.com/brem02/Udacity_Project_2/assets/122722304/28b0046c-3680-44d3-9755-ba17071e538d)
+
+
+Run Pipeline:
+
+![Run_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/eef18c0e-4c85-4344-93aa-e604095ae745)
+
 
 
 Now, we can test the app. For you case, edit the line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script on the cloud shell:
