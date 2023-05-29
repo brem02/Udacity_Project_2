@@ -279,6 +279,7 @@ Performance validation of the webapp can be performed via a load test using locu
 Replace '< yourappname >' in the provided locustfile.py and call locust:
 
 nano locustfile.py
+
 locust -f locustfile.py --headless -u 20 -r 5 -t 20s
 
 Using these parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds.
