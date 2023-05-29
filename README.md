@@ -256,6 +256,31 @@ Run Pipeline:
 ![Run_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/eef18c0e-4c85-4344-93aa-e604095ae745)
 
 
+WebApp has been started:
+
+![Run_Web_App](https://github.com/brem02/Udacity_Project_2/assets/122722304/ed04a4a8-f2a7-448c-a22a-ff0c2b2eca6c)
+
+
+WebApp Result:
+
+![Web_App_Result](https://github.com/brem02/Udacity_Project_2/assets/122722304/f2f12e75-2c81-4e60-8476-f3eee5b89f93)
+
+
+WebApp Logs:
+
+![Web_App_Log_1](https://github.com/brem02/Udacity_Project_2/assets/122722304/a4a6e700-c5c6-4ee4-9e11-9c7a6005435d)
+![Web_App_Log_2](https://github.com/brem02/Udacity_Project_2/assets/122722304/2f2ba5de-4cac-4774-a3a3-b702ab02a77e)
+![Web_App_Deploy_Log](https://github.com/brem02/Udacity_Project_2/assets/122722304/84a44970-72f2-4cc0-8daa-c2a20e6cf036)
+![Application_Log](https://github.com/brem02/Udacity_Project_2/assets/122722304/bfe0201d-722b-496c-bc90-db21f66b8c78)
+
+
+Locust Run:
+
+![Locust_Run_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/d8aeab4c-2c0b-4940-82f8-48727fe02975)
+![Locust_Run_02](https://github.com/brem02/Udacity_Project_2/assets/122722304/f8fcdce2-d917-4d1c-8803-13e00ebc5bce)
+![Locust_Run_03](https://github.com/brem02/Udacity_Project_2/assets/122722304/d6fd9b3b-4c11-4a30-8dda-88b0d362e1ac)
+
+
 
 Now, we can test the app. For you case, edit the line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script on the cloud shell:
 
