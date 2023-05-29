@@ -274,6 +274,15 @@ WebApp Logs:
 ![Application_Log](https://github.com/brem02/Udacity_Project_2/assets/122722304/bfe0201d-722b-496c-bc90-db21f66b8c78)
 
 
+
+Performance validation of the webapp can be performed via a load test using locust. 
+Replace '< yourappname >' in the provided locustfile.py and call locust:
+
+nano locustfile.py
+locust -f locustfile.py --headless -u 20 -r 5 -t 20s
+
+Using these parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds.
+
 Locust Run:
 
 ![Locust_Run_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/d8aeab4c-2c0b-4940-82f8-48727fe02975)
