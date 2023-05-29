@@ -276,7 +276,13 @@ WebApp Logs:
 
 
 Performance validation of the webapp can be performed via a load test using locust. 
-Replace '< yourappname >' in the provided locustfile.py and call locust:
+Replace the webapp name accordingly in the provided locustfile.py and call locust:
+
+Install Locust:
+pip3 install locust
+
+Check Installation
+locust -V
 
 nano locustfile.py
 
