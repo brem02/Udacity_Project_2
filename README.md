@@ -173,15 +173,64 @@ This is the webapp on the azure portal:
 
 
 
-Next, create and configure the pipeline in Azure DevOps. More information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
+Create and configure the pipeline in Azure DevOps. More information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
 
 - Go to [https://dev.azure.com](https://dev.azure.com) and sign in.
-- Create a new private project.
+- Create a new project.
 - Under Project Settings create a new service connection to Azure Resource Manager, scoped to your subscription and resource group.
-- Create a new pipeline (python to linux web app on azure)linked to your GitHub repo.
+- Create a new pipeline (python to linux web app on azure) linked to your GitHub repo.
+
+In the following every step is described in more detail:
 
 
-![azure-pipeline](evidence/screenshot-azure-pipeline.PNG)
+Create a new project:
+
+![Create_New_Project_in_Azure_DevOps](https://github.com/brem02/Udacity_Project_2/assets/122722304/25dbeddc-fe7d-4144-93a0-c97ef0307ed2)
+
+
+Create a new Service Connection:
+
+![Service_Connection](https://github.com/brem02/Udacity_Project_2/assets/122722304/e4d91066-aecd-4e79-9fd8-d9033d4defee)
+
+
+Create Pipeline:
+
+![Create_Azure_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/16dbc62b-6c38-4ac7-928c-6c0f268e0e4e)
+
+
+Edit Pipeline:
+
+![Edit_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/6a43d1cc-f2dc-49a0-bb6d-e49defe74c12)
+
+
+
+Build Pipeline:
+
+![Build_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/b649761e-2aa4-4e38-8fb5-0f181cb0f635)
+
+
+
+Create Environment:
+
+![Create_New_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/545d0f34-25ef-45a3-8daf-dd70b46a709b)
+
+
+Create Agent Pool:
+
+![Create_Agent_Pool](https://github.com/brem02/Udacity_Project_2/assets/122722304/21d0f65d-e4b0-423d-9788-298bc607592e)
+
+
+Create Virtual Machine:
+
+![Create_Virtual_Machine](https://github.com/brem02/Udacity_Project_2/assets/122722304/4fbf382d-ea2d-461a-a2e6-5531aeed2651)
+
+
+
+Virtual Machine Details:
+
+![Virtual_Machine_Details](https://github.com/brem02/Udacity_Project_2/assets/122722304/990b4b31-76ea-4ffb-a7de-d2742ac7f240)
+
+
 
 
 Now, we can test the app. For you case, edit the line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script on the cloud shell:
