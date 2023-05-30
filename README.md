@@ -26,7 +26,7 @@ In this project, you will build a Github repository from scratch and create a sc
 
 It is important to have an effective project plan and task tracking. In this section you can find:
 
-* Trello Board
+* Trello Board, see https://trello.com/b/m3tTf7w3/udacity-building-ci-cd-pipeline 
 * Spreadsheet including original and final project plan
 
 ### Instructions
@@ -300,13 +300,19 @@ az webapp log tail -n jose-flaskpipelines -g jose-udacity-project
 Replace the webapp name accordingly in the provided locustfile.py and call locust:***
 
 ***Install Locust:***
+```
 pip3 install locust
+```
 
 ***Check Installation***
+```
 locust -V
+```
 
 ***Run Locust File:***
+```
 locust -f locustfile.py --host https://uda-azuredevops-p2.azurewebsites.net/  --headless -u 20 -r 5 -t 20s
+```
 
 Using these parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds.
 
@@ -317,12 +323,14 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
 ![Locust_Run_03](https://github.com/brem02/Udacity_Project_2/assets/122722304/d6fd9b3b-4c11-4a30-8dda-88b0d362e1ac)
 
 ***Run Locust File locally to use Locust UI:***
-locust -f locustfile.py --host https://uda-azuredevops-p2.azurewebsites.net/  --headless -u 20 -r 5 -t 20s
 
 - Install Python: .\python-3.11.3-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
 - Install Locust: pip3 install locust
 - Check Version: locust -V
-- Run local Locust-File: locust
+- Run local Locust-File: 
+  ```
+  locust
+  ```
 - Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, enter the spawn rate, set the host https://uda-azuredevops-p2.azurewebsites.net/ and click Start Swarming:
 
 ***Locust Run:***
