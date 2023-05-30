@@ -158,8 +158,10 @@ Close the second cloud console, and press "Ctrl + c" to stop the local app in th
 
 ### Deploy the app to an Azure App Service
 
-***Create an App Service in Azure. In this example the App Service is called uda-azuredevops-p2 and the resource group is called Azuredevops. In the first Cloud Console run the following command, the result takes a few minutes:
-az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --logs --runtime "PYTHON:3.8"***
+***Create an App Service in Azure. In this example the App Service is called uda-azuredevops-p2 and the resource group is called Azuredevops. In the first Cloud Console run the following command, the result takes a few minutes:"***
+```
+az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --logs --runtime "PYTHON:3.8
+```
 
 ![Create_Web_App](https://github.com/brem02/Udacity_Project_2/assets/122722304/db51f2d1-dfe0-4b7a-ab2f-573a6332badf)
 
