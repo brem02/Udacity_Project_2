@@ -46,9 +46,8 @@ It is important to have an effective project plan and task tracking. In this sec
 
 ![Open_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/c5b8cdc6-8802-48e8-ae03-a8544b81494a)
 
-
-
-
+ 
+  
 ***Generate, copy and add SSH-Key in Github***
 
 ![Generate_SSH_Key](https://github.com/brem02/Udacity_Project_2/assets/122722304/21a98664-c304-4106-a02f-30b29115a14e)
