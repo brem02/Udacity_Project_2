@@ -17,21 +17,31 @@ Screenshots demonstrating key steps
 Badge
 
 
-### Overview
+## Overview
 
 In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both, Continuous Integration and Continuous Delivery. You will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. After that, you will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
+The project contains a python application, that is designed to predict housing prices in Boston. This GitHub repository will enable you to do the following:
+
+Deploy the app in Azure CloudShell
+Deploy the app as an Azure App Service
+Perform Load-Test against application
+
+Commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps, and the updated code is also automatically tested in Azure DevOps and deployed to the Azure App Service.
+
+Architecture overview:
+
+![architectural-diagram](https://github.com/brem02/Udacity_Project_2/assets/122722304/f55f537e-b9d2-4ba0-8f18-62e2028292a7)
 
 
-### Project Plan
+## Project Plan
 
 It is important to have an effective project plan and task tracking. In this section you can find:
 
 * Trello Board, see https://trello.com/b/m3tTf7w3/udacity-building-ci-cd-pipeline 
-* Spreadsheet including original and final project plan
+* Spreadsheet including original and final project plan:
 
-### Instructions
-![architectural-diagram](https://github.com/brem02/Udacity_Project_2/assets/122722304/f55f537e-b9d2-4ba0-8f18-62e2028292a7)
 
+## Instructions
 
 ### Deploy the app in Azure Power/Cloud Shell
 
@@ -46,8 +56,7 @@ It is important to have an effective project plan and task tracking. In this sec
 
 ![Open_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/c5b8cdc6-8802-48e8-ae03-a8544b81494a)
 
- 
-  
+   
 ***Generate, copy and add SSH-Key in Github***
 
 ![Generate_SSH_Key](https://github.com/brem02/Udacity_Project_2/assets/122722304/21a98664-c304-4106-a02f-30b29115a14e)
@@ -341,16 +350,16 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
 ![Locust_UI_02](https://github.com/brem02/Udacity_Project_2/assets/122722304/21f73960-61f6-40ed-9d7e-a49dfe9f5fbf)
 
 
-### Extra-Screenshots
+## Extra-Screenshots
 
-You can see screenshot of a successful GitHub build test run, at github actions:
-![webapp-logs](evidence/evidence-screenshot-showing-passing-github-actions.PNG)
+You can see screenshot of a successful ...:
 
-### Enhancements
+
+## Enhancements
 
 In the future, the project can be configured to work with gitflow, so if you commit to a particular branch, the code can continue to be deployed in the corresponding environment (Development, QA, Staging or production).
 
-### Demo 
+## Demo 
 
 This is the [youtube](https://youtu.be/xQezqOopooQ) link to see a demo
 
