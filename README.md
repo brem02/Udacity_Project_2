@@ -43,7 +43,7 @@ It is important to have an effective project plan and task tracking. In this sec
 
 &emsp;
    
-***Generate, copy and add SSH-Key in Github***
+***- Generate, copy and add SSH-Key in Github***
 
 ![Generate_SSH_Key](https://github.com/brem02/Udacity_Project_2/assets/122722304/21a98664-c304-4106-a02f-30b29115a14e)
 
@@ -51,56 +51,67 @@ It is important to have an effective project plan and task tracking. In this sec
 
 ![Add_SSH_Key_in_Github](https://github.com/brem02/Udacity_Project_2/assets/122722304/7ca8ab72-e010-4c24-90f0-0dcfe1287b42)
 
+&emsp;
 
-***Clone the repo with git clone https://github.com/brem02/Udacity_Project_2.git***
+***- Clone the repo with git clone https://github.com/brem02/Udacity_Project_2.git***
 
 ![Cloning_Project_into_Azure_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/5820860f-67ca-4a0c-b124-4866ddec5b95)
 
+&emsp;
 
-***Generate necessary files in Project:***
+***- Generate necessary files in Project:***
 
 ![Generate_Files_in_Project](https://github.com/brem02/Udacity_Project_2/assets/122722304/0ac5929e-8e16-4767-9281-eaaa1b0738dd)
 
+&emsp;
 
-***Define hello.py via bash editor***
+***- Define hello.py via bash editor***
 
 ![Define_Hello_py](https://github.com/brem02/Udacity_Project_2/assets/122722304/bcb86d82-3f58-461b-be88-f9ae1488a9e8)
 
+&emsp;
 
-***Define test_hello.py***
+***- Define test_hello.py***
 
 ![Define_test_Hello_py](https://github.com/brem02/Udacity_Project_2/assets/122722304/a3c5ada9-8088-4ec4-994b-e7efce67334d)
 
+&emsp;
 
-***Define requirements.txt***
+***- Define requirements.txt***
 
 ![Define_requirements_txt](https://github.com/brem02/Udacity_Project_2/assets/122722304/6fd94cb7-5d0b-4ee6-a7c7-cd5b6ef737da)
 
+&emsp;
 
-***Prepare Makefile in Visual Studio***
+***- Prepare Makefile in Visual Studio***
 
 ![Prepare_Makefile_in_Visual_Studio_with_Tab](https://github.com/brem02/Udacity_Project_2/assets/122722304/063f3634-71e0-463d-b4b8-33dc1aa1c377)
 
+&emsp;
 
-***Define Makefile***
+***- Define Makefile***
 
 ![Define_Makefile](https://github.com/brem02/Udacity_Project_2/assets/122722304/355de6ba-c127-4dd5-974e-6d28ef92fdb4)
 
+&emsp;
 
-***Create and Activate Virtual Environment***
+***- Create and Activate Virtual Environment***
 
 ![Creating_Virtual_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/e919d00b-c175-414d-ab7c-4cc3ec582db5)
 
+&emsp;
 
-***Install dependencies and run make all in the VM and check, if test has passed***
+***- Install dependencies and run make all in the VM and check, if test has passed***
 
 ![Passing_Test_After_Make_All](https://github.com/brem02/Udacity_Project_2/assets/122722304/a7d8998f-9e44-4a38-92cb-89e212ec14b3)
 
+&emsp;
 
-***Deactivate Virtual Environment***
+***- Deactivate Virtual Environment***
 
 ![Deactivate_Virtual_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/abbff754-5940-488b-bced-d40341863cfe)
 
+&emsp;
 
 *In order to validate the application before deploy to app service, start the application in the virtual environment:
 ```
@@ -122,153 +133,176 @@ Close the second cloud console, and press "Ctrl + c" to stop the local app in th
 
 ![stop-app](evidence/screenshot-stop-app.PNG)
 
+&emsp;
 
-***Push Files to Github:***
+***- Push Files to Github:***
 
 ![Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/175c821e-ab0f-4d58-b9c2-c216783756a8)
 
+&emsp;
 
-***Result of Push:***
+***- Result of Push:***
 
 ![Result_Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/8dc1c48c-317a-4d08-aa46-628beb962620)
 
+&emsp;
 
-***Get Started with Github Actions by clicking on 'Actions', then click on "set up a workflow yourself' and use the GitHub Actions yaml file .github/workflows/pythonapp.yml as a template:***
+***- Get Started with Github Actions by clicking on 'Actions', then click on "set up a workflow yourself' and use the GitHub Actions yaml file .github/workflows/pythonapp.yml as a template:***
 
 ![Get_Started_With_GitHub_Actions](https://github.com/brem02/Udacity_Project_2/assets/122722304/78a882fc-0a49-411a-a363-7c91a46756d1)
 
-
 ![Create_Pythonapp_yml](https://github.com/brem02/Udacity_Project_2/assets/122722304/f383c9d2-88f5-4027-b79e-44ae07fd6cf7)
 
+&emsp;
 
-***Once the workflow is created it is automatically triggered and should show a Passing GitHub Actions Build:***
+***- Once the workflow is created it is automatically triggered and should show a Passing GitHub Actions Build:***
 
 ![Passing_GitHub_Actions_Build](https://github.com/brem02/Udacity_Project_2/assets/122722304/4e310c63-0db0-4a6b-974b-1b41bb348c99)
 
+&emsp;
 
-***Git Clone Starter Code:***
+***- Git Clone Starter Code:***
 
 ![Git_Clone_Starter_Code](https://github.com/brem02/Udacity_Project_2/assets/122722304/db6df712-173e-463e-bf1e-ebb5da327e2a)
 
-
+&emsp;
 
 ### Deploy the app to an Azure App Service
 
 ***Create an App Service in Azure. In this example the App Service is called uda-azuredevops-p2 and the resource group is called Azuredevops. In the first Cloud Console run the following command, the result takes a few minutes:"***
+
+&emsp;
+
 ```
 az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --logs --runtime "PYTHON:3.8
 ```
+&emsp;
 
 ![Create_Web_App](https://github.com/brem02/Udacity_Project_2/assets/122722304/db51f2d1-dfe0-4b7a-ab2f-573a6332badf)
 
+&emsp;
 
-***This is the webapp on the azure portal:***
+***- This is the webapp on the azure portal:***
 
 ![Web_App_Details](https://github.com/brem02/Udacity_Project_2/assets/122722304/a122a245-dae2-4b60-8887-970ac7659780)
 
+&emsp;
 
-
-***Create and configure the pipeline in Azure DevOps. More information on this process can be found [here:(https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:***
-
+***- Create and configure the pipeline in Azure DevOps. More information on this process can be found [here:(https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:***
+&emsp;
 - Go to [https://dev.azure.com](https://dev.azure.com) and sign in.
 - Create a new project.
 - Under Project Settings create a new service connection to Azure Resource Manager, scoped to your subscription and resource group.
 - Create a new pipeline (python to linux web app on azure) linked to your GitHub repo.
-
+&emsp;
 ***In the following every step is described in more detail:***
 
+&emsp;
 
-***Create a new project:***
+***- Create a new project:***
 
 ![Create_New_Project_in_Azure_DevOps](https://github.com/brem02/Udacity_Project_2/assets/122722304/25dbeddc-fe7d-4144-93a0-c97ef0307ed2)
 
+&emsp;
 
-***Create a new Service Connection:***
+***- Create a new Service Connection:***
 
 ![Service_Connection](https://github.com/brem02/Udacity_Project_2/assets/122722304/e4d91066-aecd-4e79-9fd8-d9033d4defee)
 
+&emsp;
 
-***Create Pipeline:***
+***- Create Pipeline:***
 
 ![Create_Azure_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/16dbc62b-6c38-4ac7-928c-6c0f268e0e4e)
 
+&emsp;
 
-***Edit Pipeline:***
+***- Edit Pipeline:***
 
 ![Edit_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/6a43d1cc-f2dc-49a0-bb6d-e49defe74c12)
 
+&emsp;
 
-
-***Build Pipeline:***
+***-Build Pipeline:***
 
 ![Build_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/b649761e-2aa4-4e38-8fb5-0f181cb0f635)
 
+&emsp;
 
-
-***Create Environment:***
+***- Create Environment:***
 
 ![Create_New_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/545d0f34-25ef-45a3-8daf-dd70b46a709b)
 
+&emsp;
 
-***Create Agent Pool:***
+***- Create Agent Pool:***
 
 ![Create_Agent_Pool](https://github.com/brem02/Udacity_Project_2/assets/122722304/21d0f65d-e4b0-423d-9788-298bc607592e)
 
+&emsp;
 
-***Create Virtual Machine:***
+***- Create Virtual Machine:***
 
 ![Create_Virtual_Machine](https://github.com/brem02/Udacity_Project_2/assets/122722304/4fbf382d-ea2d-461a-a2e6-5531aeed2651)
 
+&emsp;
 
-
-***Virtual Machine Details:***
+***- Virtual Machine Details:***
 
 ![Virtual_Machine_Details](https://github.com/brem02/Udacity_Project_2/assets/122722304/990b4b31-76ea-4ffb-a7de-d2742ac7f240)
 
+&emsp;
 
-***Configure Virtual Machine --> Install Docker:***
+***- Configure Virtual Machine --> Install Docker:***
 
 ![Configure_VM_Install_Docker](https://github.com/brem02/Udacity_Project_2/assets/122722304/80cfc6b2-b40f-49ac-a3c9-384d6ab905bc)
 
+&emsp;
 
-***Create new Agent:***
+***- Create new Agent:***
 
 ![Create_New_Agent](https://github.com/brem02/Udacity_Project_2/assets/122722304/70e4ca46-414a-4cf9-9ad8-2e290f89e189)
 
+&emsp;
 
-***Configure Virtual Machine --> Install Agent Services:***
+***- Configure Virtual Machine --> Install Agent Services:***
 
 ![Configure_VM_Install_Agent_Services](https://github.com/brem02/Udacity_Project_2/assets/122722304/9dac8139-ff3b-4119-8094-ab284f78eddd)
 
+&emsp;
 
-***Check, if Agent has been registered:***
+***- Check, if Agent has been registered:***
 
 ![Agent_Registered](https://github.com/brem02/Udacity_Project_2/assets/122722304/28b0046c-3680-44d3-9755-ba17071e538d)
 
+&emsp;
 
-***Run Pipeline:***
+***- Run Pipeline:***
 
 ![Run_Pipeline](https://github.com/brem02/Udacity_Project_2/assets/122722304/eef18c0e-4c85-4344-93aa-e604095ae745)
 
+&emsp;
 
-***WebApp has been started:***
+***- WebApp has been started:***
 
 ![Run_Web_App](https://github.com/brem02/Udacity_Project_2/assets/122722304/ed04a4a8-f2a7-448c-a22a-ff0c2b2eca6c)
 
+&emsp;
 
-***WebApp Result:***
+***- WebApp Result:***
 
 ![Web_App_Result](https://github.com/brem02/Udacity_Project_2/assets/122722304/f2f12e75-2c81-4e60-8476-f3eee5b89f93)
 
+&emsp;
 
-***WebApp Logs:***
+***-WebApp Logs:***
 
 ![Web_App_Log_1](https://github.com/brem02/Udacity_Project_2/assets/122722304/a4a6e700-c5c6-4ee4-9e11-9c7a6005435d)
 ![Web_App_Log_2](https://github.com/brem02/Udacity_Project_2/assets/122722304/2f2ba5de-4cac-4774-a3a3-b702ab02a77e)
 ![Web_App_Deploy_Log](https://github.com/brem02/Udacity_Project_2/assets/122722304/84a44970-72f2-4cc0-8daa-c2a20e6cf036)
 ![Application_Log](https://github.com/brem02/Udacity_Project_2/assets/122722304/bfe0201d-722b-496c-bc90-db21f66b8c78)
 
-
+&emsp;
 
 Now, we can test the app. For you case, edit the line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script on the cloud shell:
 
@@ -288,38 +322,39 @@ az webapp log tail -n jose-flaskpipelines -g jose-udacity-project
 ```
 ![webapp-logs](evidence/screenshot-webapp-logs.PNG)
 
-
+&emsp;
 
 ### Load Test
 
-***Performance validation of the webapp can be performed via a load test using locust. 
+***-Performance validation of the webapp can be performed via a load test using locust. 
 Replace the webapp name accordingly in the provided locustfile.py and call locust:***
-
+&emsp;
 ***Install Locust:***
 ```
 pip3 install locust
 ```
-
+&emsp;
 ***Check Installation***
 ```
 locust -V
 ```
-
+&emsp;
 ***Run Locust File:***
 ```
 locust -f locustfile.py --host https://uda-azuredevops-p2.azurewebsites.net/  --headless -u 20 -r 5 -t 20s
 ```
-
+&emsp;
 Using these parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds.
+&emsp;
 
 ***Locust Run:***
-
+&emsp;
 ![Locust_Run_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/d8aeab4c-2c0b-4940-82f8-48727fe02975)
 ![Locust_Run_02](https://github.com/brem02/Udacity_Project_2/assets/122722304/f8fcdce2-d917-4d1c-8803-13e00ebc5bce)
 ![Locust_Run_03](https://github.com/brem02/Udacity_Project_2/assets/122722304/d6fd9b3b-4c11-4a30-8dda-88b0d362e1ac)
-
+&emsp;
 ***Run Locust File locally to use Locust UI:***
-
+&emsp;
 - Install Python: .\python-3.11.3-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
 - Install Locust: pip3 install locust
 - Check Version: locust -V
@@ -327,14 +362,15 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
   ```
   locust
   ```
+  &emsp;
 - Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, enter the spawn rate, set the host https://uda-azuredevops-p2.azurewebsites.net/ and click Start Swarming:
-
+&emsp;
 ***Locust Run:***
-
+&emsp;
 ![Locust_Run_UI](https://github.com/brem02/Udacity_Project_2/assets/122722304/149ed36a-5943-485a-9185-683ad80cda86)
 ![Locust_UI_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/13307ae9-a95a-454b-ad0d-f97725341b86)
 ![Locust_UI_02](https://github.com/brem02/Udacity_Project_2/assets/122722304/21f73960-61f6-40ed-9d7e-a49dfe9f5fbf)
-
+&emsp;
 
 ## Extra-Screenshots
 
