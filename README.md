@@ -329,6 +329,7 @@ az webapp log tail -n jose-flaskpipelines -g jose-udacity-project
 ***-Performance validation of the webapp can be performed via a load test using locust. 
 Replace the webapp name accordingly in the provided locustfile.py and call locust:***
 &emsp;
+
 ***Install Locust:***
 ```
 pip3 install locust
