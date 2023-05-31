@@ -3,7 +3,8 @@ from flask.logging import create_logger
 import logging
 
 import pandas as pd
-import joblib
+# import joblib
+from sklearn.externals import joblib
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
@@ -32,7 +33,8 @@ def predict():
         # clf = joblib.load("./Housing_price_model/LinearRegression.joblib")
         # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
         # clf = joblib.load("./Housing_price_model/GradientBoostingRegressor.joblib")
-        clf = joblib.load("./GradientBoostingRegressor.joblib")
+        # clf = joblib.load("./GradientBoostingRegressor.joblib")
+        clf = joblib.load("boston_housing_prediction.joblib")
     except:
         LOG.info("JSON payload: %s json_payload")
         return "Model not loaded"
