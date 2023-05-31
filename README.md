@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/odluser234748/Udacity_AzureDevops-P2/_apis/build/status%2Fbrem02.Udacity_Project_2?branchName=main)](https://dev.azure.com/odluser234748/Udacity_AzureDevops-P2/_build/latest?definitionId=1&branchName=main)
+
 # Udacity_Project_2
 Building a CI/CD Pipeline
 
