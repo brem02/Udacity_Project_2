@@ -345,14 +345,16 @@ locust -f locustfile.py --host https://uda-azuredevops-p2.azurewebsites.net/  --
 ```
 &emsp;
 Using these parameters above locust will use 20 users with a spawn rate of 5 users per second and run for 20 seconds.
+
 &emsp;
 
-***Locust Run:***
+***- Locust Run:***
 &emsp;
 ![Locust_Run_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/d8aeab4c-2c0b-4940-82f8-48727fe02975)
 ![Locust_Run_02](https://github.com/brem02/Udacity_Project_2/assets/122722304/f8fcdce2-d917-4d1c-8803-13e00ebc5bce)
 ![Locust_Run_03](https://github.com/brem02/Udacity_Project_2/assets/122722304/d6fd9b3b-4c11-4a30-8dda-88b0d362e1ac)
 &emsp;
+
 ***Run Locust File locally to use Locust UI:***
 &emsp;
 - Install Python: .\python-3.11.3-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
@@ -365,7 +367,7 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
   &emsp;
 - Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, enter the spawn rate, set the host https://uda-azuredevops-p2.azurewebsites.net/ and click Start Swarming:
 &emsp;
-***Locust Run:***
+***- Locust Run:***
 &emsp;
 ![Locust_Run_UI](https://github.com/brem02/Udacity_Project_2/assets/122722304/149ed36a-5943-485a-9185-683ad80cda86)
 ![Locust_UI_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/13307ae9-a95a-454b-ad0d-f97725341b86)
