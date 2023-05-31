@@ -29,18 +29,19 @@ It is important to have an effective project plan and task tracking. In this sec
 ## Instructions
 
 ### Deploy the app in Azure Power/Cloud Shell
+&emsp;
 
-
-***Create a new repository:***
+***- Create a new repository:***
 
 ![Create_New_Repository](https://github.com/brem02/Udacity_Project_2/assets/122722304/64add23b-e27b-4435-8b49-b2736b1fb500)
 
 &emsp;
 
-***Go to the azure portal (portal.azure.com) in your browser and open power or cloud shell:*** 
+***- Go to the azure portal (portal.azure.com) in your browser and open power or cloud shell:*** 
 
 ![Open_Cloud_Shell](https://github.com/brem02/Udacity_Project_2/assets/122722304/c5b8cdc6-8802-48e8-ae03-a8544b81494a)
 
+&emsp;
    
 ***Generate, copy and add SSH-Key in Github***
 
