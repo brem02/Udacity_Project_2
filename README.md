@@ -5,7 +5,7 @@ Building a CI/CD Pipeline
 ## Overview
 
 In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both, Continuous Integration and Continuous Delivery. You will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. After that, you will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
-The project contains a python application, that is designed to predict housing prices in Boston. This GitHub repository will enable you to do the following:
+The project builds a python web application (using Flask and sklearn) and deploys it using Azure App Services. It is designed to predict housing prices in Boston. This GitHub repository will enable you to do the following:
 
 - Deploy the app in Azure CloudShell
 - Deploy the app as an Azure App Service
