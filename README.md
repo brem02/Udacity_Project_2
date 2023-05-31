@@ -35,7 +35,7 @@ It is important to have an effective project plan and task tracking. In this sec
 
 ![Create_New_Repository](https://github.com/brem02/Udacity_Project_2/assets/122722304/64add23b-e27b-4435-8b49-b2736b1fb500)
 
-
+&emsp;
 
 ***Go to the azure portal (portal.azure.com) in your browser and open power or cloud shell:*** 
 
