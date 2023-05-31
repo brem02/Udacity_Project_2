@@ -2,21 +2,6 @@
 Building a CI/CD Pipeline
 
 
-## Sections:
-----------
-Overview of the project
-
-Architectural Diagram
-
-Instructions for running the Python project
-
-A short description of how to improve the project in the future
-
-Screenshots demonstrating key steps
-
-Badge
-
-
 ## Overview
 
 In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both, Continuous Integration and Continuous Delivery. You will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. After that, you will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
