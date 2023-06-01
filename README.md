@@ -97,6 +97,17 @@ It is important to have an effective project plan and task tracking. In this sec
 
 &emsp;
 
+***- Push Files to Github:***
+
+![Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/175c821e-ab0f-4d58-b9c2-c216783756a8)
+
+&emsp;
+
+***- Result of Push:***
+
+![Result_Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/8dc1c48c-317a-4d08-aa46-628beb962620)
+
+
 ***- Create and Activate Virtual Environment***
 
 ![Creating_Virtual_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/e919d00b-c175-414d-ab7c-4cc3ec582db5)
@@ -109,43 +120,14 @@ It is important to have an effective project plan and task tracking. In this sec
 
 &emsp;
 
-***- Deactivate Virtual Environment***
-
-![Deactivate_Virtual_Environment](https://github.com/brem02/Udacity_Project_2/assets/122722304/abbff754-5940-488b-bced-d40341863cfe)
-
+***- Validate application in the VM before deploying it to Azure App Service. In a new Cloud Shell go to your repo and start locally the file make_prediction.sh***
 &emsp;
-
-*In order to validate the application before deploy to app service, start the application in the virtual environment:
 ```
-python app.py
-```
-![python-app](evidence/screenshot-python-app.PNG)
-
-Open other Cloud Shell:
-![new-cloud-shell](evidence/screenshot-new-cloud-shell.PNG)
-
-In the new Cloud Shell, go to the repository directory and test that the app is working:
-```
-cd Building-a-CI-CD-Pipeline
 ./make_prediction.sh
 ```
-![local-prediction](evidence/screenshot-local-prediction.PNG)
-
-Close the second cloud console, and press "Ctrl + c" to stop the local app in the first console:
-
-![stop-app](evidence/screenshot-stop-app.PNG)
-
 &emsp;
 
-***- Push Files to Github:***
-
-![Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/175c821e-ab0f-4d58-b9c2-c216783756a8)
-
-&emsp;
-
-***- Result of Push:***
-
-![Result_Git_Push_Files](https://github.com/brem02/Udacity_Project_2/assets/122722304/8dc1c48c-317a-4d08-aa46-628beb962620)
+![Test_Application_Locally_Make_Prediction](https://github.com/brem02/Udacity_Project_2/assets/122722304/a07330f8-4e48-4877-81a6-abdd90529b51)
 
 &emsp;
 
