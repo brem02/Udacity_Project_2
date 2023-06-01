@@ -24,8 +24,8 @@ Architecture overview:
 
 It is important to have an effective project plan and task tracking. In this section you can find:
 
-* Trello Board, see https://trello.com/b/m3tTf7w3/udacity-building-ci-cd-pipeline 
-* Spreadsheet including original and final project plan:
+* Trello Board, see ***https://trello.com/b/m3tTf7w3/udacity-building-ci-cd-pipeline*** 
+* Spreadsheet including project plan, see file ***Procet_Plan_Udacity_Building_CI_CD_Pipeline.xlsx*** in main branch 
 
 
 ## Instructions
