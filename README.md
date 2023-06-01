@@ -123,7 +123,7 @@ It is important to have an effective project plan and task tracking. In this sec
 ***- Validate application in the VM before deploying it to Azure App Service. In a new Cloud Shell go to your repo and start locally the file make_prediction.sh***
 &emsp;
 ```
-./make_prediction.sh
+bash ./make_prediction.sh
 ```
 &emsp;
 
@@ -289,23 +289,12 @@ az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --l
 
 &emsp;
 
-Now, we can test the app. For you case, edit the line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script on the cloud shell:
+***- Test the App by editing the make_predict_azure_app.sh script with your DNS name of your app before running it on Cloud Shell:***
 
 ```
-./make_predict_azure_app.sh 
+bash ./make_predict_azure_app.sh 
 ```
-![webapp-prediction](evidence/screenshot-webapp-prediction.PNG)
-
-
-If you like, you can go to the webapp url:
-
-![webapp-url](evidence/screenshot-webapp-url.PNG)
-
-And view the logs with the following command:
-```
-az webapp log tail -n jose-flaskpipelines -g jose-udacity-project
-```
-![webapp-logs](evidence/screenshot-webapp-logs.PNG)
+![Test_Application_AzureAppService_make_predict_azure_app](https://github.com/brem02/Udacity_Project_2/assets/122722304/27b8c339-3377-4856-bb92-f78e53f77c87)
 
 &emsp;
 
