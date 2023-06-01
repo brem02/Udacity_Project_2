@@ -289,7 +289,7 @@ az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --l
 
 &emsp;
 
-***- Test the App by editing the make_predict_azure_app.sh script with your DNS name of your app before running it on Cloud Shell:***
+***- Test the App by editing the make_predict_azure_app.sh script with your DNS name of your app before running it on Cloud Shell in a separate terminal window:***
 
 ```
 bash ./make_predict_azure_app.sh 
