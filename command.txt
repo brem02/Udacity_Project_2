@@ -1,0 +1,90 @@
+Clone Repo:
+-----------
+git clone https://github.com/brem02/Udacity_Project_2.git
+
+Create WebApp:
+--------------
+az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --logs --runtime "PYTHON:3.8"
+
+DevOps-Portal: Create Project
+DevOps-Portal: Create Service Connection
+DevOps-Portal: Create PAT-Token: iaf2erc45s226zwoymigh3dpzlzziyvdrmp7ydzid3bsexszjaxa
+DevOps-Portal: Create AgentPool
+
+Create VM:
+----------
+devopsagent
+DevOpsAgent@123
+
+Login VM:
+---------
+ssh devopsagent@20.16.79.31
+
+Install Docker:
+---------------
+sudo snap install docker
+
+Configure the devopsagent user to run Docker
+--------------------------------------------
+sudo groupadd docker
+sudo usermod -aG docker $USER
+exit
+
+Restart VM via Portal
+Login VM:
+---------
+ssh devopsagent@20.16.79.31
+
+DevOps-Portal: Adding a new agent to the agent pool
+
+
+Configure Agent
+---------------
+curl -O https://vstsagentpackage.azureedge.net/agent/2.202.1/vsts-agent-linux-x64-2.202.1.tar.gz
+mkdir myagent && cd myagent
+tar zxvf ../vsts-agent-linux-x64-2.202.1.tar.gz
+./config.sh
+sudo ./svc.sh install
+sudo ./svc.sh start
+
+Agent Preparation for Building Flask Application
+------------------------------------------------
+sudo apt-get update
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+Install PYTHON
+--------------
+sudo apt install python3.8
+sudo apt-get install python3.8-venv
+sudo apt-get install python3-pip
+python3.8 --version
+pip --version 
+
+Install tools for the Pipeline build steps
+------------------------------------------
+sudo apt-get install python3.8-distutils
+sudo apt-get -y install zip
+
+Install Paylint
+---------------
+pip install pylint==2.13.7
+pip show --files pylint
+echo $PATH
+
+Update the Path for Pylint
+-------------------------
+export PATH=$HOME/.local/bin:$PATH
+echo $PATH
+which pylint
+
+DevOps-Portal: Creating Pipeline
+
+		
+
+
+
+
+
+
