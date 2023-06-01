@@ -360,6 +360,13 @@ You can see the screenshot of a successful Azure Pipeline Run:
 ## Enhancements
 
 In the future, the project can be configured to work with gitflow, so if you commit to a particular branch, the code can continue to be deployed in the corresponding environment (Development, QA, Staging or production).
+&emsp;
+
+## Annotations
+
+- In the main branch there is a command.txt file, which includes all relevant commands to set up the environment for this project. Moreover, it contains also the steps to do the set up. 
+- the command python3 -m pip install pandas in the azure-pipelines.yml is necessary, because the according entry in requirements.txt was not processed correctly under python 3.8 --> the tutor has opened up a bug
+&emsp;
 
 ## Demo 
 
