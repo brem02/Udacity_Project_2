@@ -375,7 +375,7 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
 
 ## Extra-Screenshots
 
-You can see the screenshot of a successful Azure Pipeline Run:
+Here you can see the screenshot of a successful Azure Pipeline Run. It is included due to the temporary Udacity Azure Lab.
 
 ![image](https://github.com/brem02/Udacity_Project_2/assets/122722304/74d56f34-df06-452e-9ddd-5e96b6d620d3)
 
