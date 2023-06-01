@@ -139,7 +139,7 @@ It is important to have an effective project plan and task tracking. In this sec
 
 &emsp;
 
-***- Once the workflow is created it is automatically triggered and should show a Passing GitHub Actions Build:***
+***- Once the workflow is created (detailed steps for that will be provided in the 'Deploy the app to an Azure App Service' section right underneeth) it is automatically triggered and should show a Passing GitHub Actions Build:***
 
 ![Passing_GitHub_Actions_Build](https://github.com/brem02/Udacity_Project_2/assets/122722304/4e310c63-0db0-4a6b-974b-1b41bb348c99)
 
