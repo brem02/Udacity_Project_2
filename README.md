@@ -143,6 +143,7 @@ It is important to have an effective project plan and task tracking. In this sec
 
 ![Passing_GitHub_Actions_Build](https://github.com/brem02/Udacity_Project_2/assets/122722304/4e310c63-0db0-4a6b-974b-1b41bb348c99)
 
+
 &emsp;
 
 ***- Git Clone Starter Code:***
