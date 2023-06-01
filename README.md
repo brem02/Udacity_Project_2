@@ -296,8 +296,8 @@ az webapp up --name uda-azuredevops-p2 --resource-group Azuredevops --sku B1 --l
 
 &emsp;
 
-***- Test the App by editing the make_predict_azure_app.sh script with your DNS name of your app 
-***- Run the following commands:
+***- Test the App by editing the make_predict_azure_app.sh script with your DNS name of your app*** 
+***- Run the following commands:***
 
 ```
 make setup 
