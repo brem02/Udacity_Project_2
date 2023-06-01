@@ -347,11 +347,15 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
   locust
   ```
   &emsp;
-- Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, enter the spawn rate, set the host https://uda-azuredevops-p2.azurewebsites.net/ and click Start Swarming:
-&emsp;
+
 ***- Locust Run:***
 &emsp;
 ![Locust_Run_UI](https://github.com/brem02/Udacity_Project_2/assets/122722304/149ed36a-5943-485a-9185-683ad80cda86)
+&emsp;
+
+- Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, enter the spawn rate, set the host https://uda-azuredevops-p2.azurewebsites.net/ and click Start Swarming:
+
+&emsp;
 ![Locust_UI_01](https://github.com/brem02/Udacity_Project_2/assets/122722304/13307ae9-a95a-454b-ad0d-f97725341b86)
 ![Locust_UI_02](https://github.com/brem02/Udacity_Project_2/assets/122722304/21f73960-61f6-40ed-9d7e-a49dfe9f5fbf)
 &emsp;
