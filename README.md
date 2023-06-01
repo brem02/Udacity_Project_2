@@ -346,8 +346,7 @@ Using these parameters above locust will use 20 users with a spawn rate of 5 use
   ```
   locust
   ```
-  &emsp;
-
+  
 ***- Locust Run:***
 &emsp;
 ![Locust_Run_UI](https://github.com/brem02/Udacity_Project_2/assets/122722304/149ed36a-5943-485a-9185-683ad80cda86)
