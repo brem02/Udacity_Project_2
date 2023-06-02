@@ -146,7 +146,7 @@ bash ./make_prediction.sh
 
 &emsp;
 
-***- Git Clone Starter Code:***
+***- Git Clone Starter Code in order to get some additional files for the own repo:***
 
 ![Git_Clone_Starter_Code](https://github.com/brem02/Udacity_Project_2/assets/122722304/db6df712-173e-463e-bf1e-ebb5da327e2a)
 
