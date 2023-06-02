@@ -310,7 +310,7 @@ python app.py
 ```
 &emsp;
 
-***- Running it on Cloud Shell in a separate terminal window:***
+***- Running prediction shell script on Cloud Shell in a separate terminal window:***
 
 ```
 bash ./make_predict_azure_app.sh 
@@ -322,7 +322,7 @@ bash ./make_predict_azure_app.sh
 ### Load Test
 
 ***-Performance validation of the webapp can be performed via a load test using locust. 
-Replace the webapp name accordingly in the provided locustfile.py and call locust:***
+Replace the webapp name accordingly in the provided locustfile.py and install/run locust:***
 &emsp;
 
 ***Install Locust:***
