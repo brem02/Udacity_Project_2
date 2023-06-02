@@ -383,7 +383,8 @@ Here you can see the screenshot of a successful Azure Pipeline Run. It is includ
 
 ## Enhancements
 
-In the future, the project can be configured to work with gitflow, so if you commit to a particular branch, the code can continue to be deployed in the corresponding environment (Development, QA, Staging or production).
+In the future, it would be great to have a stored Udacity Lab Account to avoid to set it up from scratch every time.
+Moreover, the project could be configured to work with gitflow. Instead of a single main branch, this workflow uses two branches to record the history of the project. So, if you commit to a particular branch, the code can continue to be deployed in the corresponding environment (Development, QA, Staging or production).
 &emsp;
 
 ## Annotations
