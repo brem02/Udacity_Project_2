@@ -390,7 +390,7 @@ Moreover, the project could be configured to work with gitflow. Instead of a sin
 ## Annotations
 
 - In the main branch there is a command.txt file, which includes all relevant commands to set up the environment for this project. Moreover, it contains also the steps to do the set up. 
-- the command ***python3 -m pip install pandas*** in the azure-pipelines.yml is necessary, because the according entry in requirements.txt was not processed correctly under python 3.8 --> the tutor has opened up a bug
+- the command ***python3 -m pip install pandas*** in the azure-pipelines.yml is necessary, because the according entry in requirements.txt was not processed correctly under python 3.8 --> the tutor has opened up a bug ticket for this.
 &emsp;
 
 ## Demo 
