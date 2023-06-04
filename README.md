@@ -395,5 +395,5 @@ Moreover, the project could be configured to work with gitflow. Instead of a sin
 
 ## Demo 
 
-This is the [youtube](https://youtu.be/xQezqOopooQ) link to see a demo
+This is the Youtube link to see the demo: https://youtu.be/MHN5xYgzOo0
 
